@@ -1,0 +1,14 @@
+[package]
+name = "atrofac-gui"
+version = "0.1.0"
+authors = ["caelis <simon.ruoss@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+log = "0.4"
+atrofac-libgui = {path = "../libgui"}
+atrofac-library = {path = "../library"}
+
+[build-dependencies]
+winres = "0.1"
